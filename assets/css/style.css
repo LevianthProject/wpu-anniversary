@@ -25,7 +25,7 @@ canvas {
     transform: translate(-50%, -50%);
     color: #fff;
     font-family: BubbleShine, sans-serif;
-    font-size: 70px;
+    font-size: 120px;
     padding: .5rem 3.5rem;
     border-radius: 1000px;
     background: rgba(53, 82, 93, 0.006);
@@ -40,7 +40,7 @@ canvas {
     background: rgb(206, 206, 206);
     border-top: .5rem solid rgb(14, 49, 84);
     border-bottom: .5rem solid rgb(14, 49, 84);
-    font-size: 85px;
+    font-size: 135px;
     padding: .5rem 3.5rem;
     transition: .3s;
 
