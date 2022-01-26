@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7th Anniversary!</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+
+
+    <section class="open-modal animate__animated" id="openContainer">
+        <ul class="share-icons btnOpenButton" id="openPageButton">
+            <li class="share-icons__item">Open Me!</li>
+            <li class="share-icons__block">
+                <div class="share-icons__block-left">👀</div>
+                <div class="share-icons__block-right">👀</div>
+            </li>
+        </ul>
+    </section>
+
+    <canvas id="birthday"></canvas>
+    <h1 class="main-text">Happy 7th Anniversary <br> WPU!</h1>
+    <audio id="track">
+        <source src="shelter.mp3" type="audio/mpeg" />
+    </audio>
+
+    <div id="player-container">
+        <div id="play-pause" class="play">Play</div>
+    </div>
+
+
+    <script src="assets/js/script.js"></script>
+    <script>
+        document.querySelector('#openPageButton').addEventListener('click', () => {
+            document.querySelector('#openContainer').classList.add(
+                "animate__bounceOut");
+        });
+    </script>
+</body>
+
+</html>
