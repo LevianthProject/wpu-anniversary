@@ -1,1 +1,1 @@
-# wpu-anniversary
+# Happy 7th Anniversary WPU!
